@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body, template {
+  background-image: url("../assets/futuristic-technology-background-blue-line-wave-light-screen-abstract-illustration-photo.jpg");
+  background-repeat: no-repeat;  /* Prevent image repetition */
+  background-size: cover;        /* Ensure image covers the entire body */
+  background-position: center;    /* Center the image horizontally */
+}
+
